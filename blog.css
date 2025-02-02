@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial;
+    background-color: white;
+     text-align: center;
+    height: 100vh;
+    
+}
+.formgroup{
+    background-color: whitesmoke;
+    font-family: Arial;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv{
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.food{
+font-size: 20px;
+font-weight: 200;
+color: black;
+padding-left: 25px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-evenly;
+    }
+    
+.good{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: cornflowerblue;
+}
+
+.card img{
+    width: 80%;
+    height: auto;
+    background-color: brown;
+    
+}
+.notbad{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: cornflowerblue;
+}
+.text4 img{
+    width: 80%;
+    height: auto;
+    background-color: black;
+}
+.vat{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color:lightgray;
+    font-size: 30px;
+}
+
+.imga img{
+ width: 50px;
+ height: 50px;
+ background-color: brown;
+}
+.notcont{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.cont1{
+    width: 200px;
+    height: 200px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+img{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+
+
+
